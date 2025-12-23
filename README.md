@@ -2,7 +2,7 @@ ReadMe
 
 ### 入口
 
-./SpatialDomainRecognition/deepst/demo.py
+./STGFusion/deepst/demo.py
 
 ### 参数设置
 
@@ -31,4 +31,5 @@ adata = deepen._get_augment(adata, spatial_type="BallTree", use_morphological=Tr
 ```python
 adata = deepen._get_cluster_data(adata, n_domains=n_domains, priori=False)
 ```
+
 
